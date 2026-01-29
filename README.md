@@ -36,7 +36,7 @@
 │
 └── kitty/
     └── colors.conf          # optional
-
+```
 ### To-do
 - [x] Hyprland
 - [x] Hyprlock
@@ -55,6 +55,7 @@
 - [ ] notification(dunst)
 - [ ] hypridle
 - [ ] and rest i forgot to write here
+
 
 ## ⚠️ Disclaimer
 
