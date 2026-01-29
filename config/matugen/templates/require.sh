@@ -55,6 +55,7 @@ sudo pacman -S --needed \
     rofi-wayland \
     dunst \
     swww \
+    waybar\
 
     # ========================
     # GTK stack + File Manager
