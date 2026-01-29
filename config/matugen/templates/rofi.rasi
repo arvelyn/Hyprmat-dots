@@ -1,0 +1,37 @@
+* {
+    bg: {{colors.background}};
+    fg: {{colors.on_background}};
+    accent: {{colors.primary}};
+    muted: {{colors.surface_variant}};
+}
+
+window {
+    background-color: @bg;
+    border: 2px;
+    border-color: @accent;
+    border-radius: 12px;
+}
+
+mainbox {
+    padding: 12px;
+}
+
+inputbar {
+    background-color: @surface;
+    text-color: @fg;
+    border-radius: 8px;
+}
+
+listview {
+    background-color: @bg;
+}
+
+element {
+    text-color: @fg;
+    border-radius: 6px;
+}
+
+element selected {
+    background-color: @accent;
+    text-color: @bg;
+}
