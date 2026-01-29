@@ -65,6 +65,51 @@ $color_inactive_border = rgba(00000044)
 EOF
 fi
 
+# ============================
+# Matugen → Dunst integration 🔔
+# ============================
+
+# Extract colors from Matugen-generated Hyprland colors.conf
+BG=$(grep '^\$bg =' ~/.config/hypr/colors.conf | tail -1 | awk '{print $3}')
+FG=$(grep '^\$fg =' ~/.config/hypr/colors.conf | tail -1 | awk '{print $3}')
+ACCENT=$(grep '^\$accent =' ~/.config/hypr/colors.conf | tail -1 | awk '{print $3}')
+MUTED=$(grep '^\$muted =' ~/.config/hypr/colors.conf | tail -1 | awk '{print $3}')
+
+# fallback if muted is missing
+[ -z "$MUTED" ] && MUTED="$ACCENT"
+
+# Convert rgba(r,g,b,a) → hex #RRGGBB
+rgba_to_hex() {
+    local rgba="$1"
+    local rgb=$(echo "$rgba" | sed 's/rgba(//' | sed 's/).*//')
+    local r=$(echo "$rgb" | cut -d',' -f1)
+    local g=$(echo "$rgb" | cut -d',' -f2)
+    local b=$(echo "$rgb" | cut -d',' -f3)
+    printf "#%02x%02x%02x" "$r" "$g" "$b"
+}
+
+BG_HEX=$(rgba_to_hex "$BG")
+FG_HEX=$(rgba_to_hex "$FG")
+ACCENT_HEX=$(rgba_to_hex "$ACCENT")
+MUTED_HEX=$(rgba_to_hex "$MUTED")
+
+# simple error color (from Matugen accent if available)
+ERROR_HEX="#ff5555"
+
+DUNST_FILE="$HOME/.config/dunst/dunstrc"
+
+sed -i \
+    -e "s/__BG__/$BG_HEX/g" \
+    -e "s/__FG__/$FG_HEX/g" \
+    -e "s/__ACCENT__/$ACCENT_HEX/g" \
+    -e "s/__MUTED__/$MUTED_HEX/g" \
+    -e "s/__ERROR__/$ERROR_HEX/g" \
+    "$DUNST_FILE"
+
+# Restart dunst
+pkill dunst && dunst &
+
+
 
 # Reload Hyprland
 hyprctl reload

@@ -42,19 +42,19 @@ timeout = 6
 # These will be replaced dynamically by pywal
 
 [urgency_low]
-background = "#000000"
-foreground = "#ffffff"
-frame_color = "#444444"
+background = "__BG__"
+foreground = "__FG__"
+frame_color = "__MUTED__"
 timeout = 4
 
 [urgency_normal]
-background = "#000000"
-foreground = "#ffffff"
-frame_color = "#888888"
+background = "__BG__"
+foreground = "__FG__"
+frame_color = "__ACCENT__"
 timeout = 6
 
 [urgency_critical]
-background = "#000000"
-foreground = "#ffffff"
-frame_color = "#ff5555"
+background = "__BG__"
+foreground = "__FG__"
+frame_color = "__ERROR__"
 timeout = 0
