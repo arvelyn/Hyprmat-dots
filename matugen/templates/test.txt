@@ -1,0 +1,2 @@
+BG = {{ colors.background.default.hex }}
+ACCENT = {{ colors.primary.default.hex }}

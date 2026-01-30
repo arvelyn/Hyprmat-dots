@@ -1,0 +1,54 @@
+[config]
+reload_apps = false
+
+[templates]
+
+[templates.hyprland]
+input_path = "/home/grey/.config/matugen/templates/hyprland.conf"
+output_path = "/home/grey/.config/hypr/colors.conf"
+
+[templates.gtk3]
+input_path = "/home/grey/.config/matugen/templates/gtk.css"
+output_path = "/home/grey/.config/gtk-3.0/gtk.css"
+
+[templates.gtk4]
+input_path = "/home/grey/.config/matugen/templates/gtk.css"
+output_path = "/home/grey/.config/gtk-4.0/gtk.css"
+
+[templates.kitty]
+input_path = "/home/grey/.config/matugen/templates/kitty.conf"
+output_path = "/home/grey/.config/kitty/colors.conf"
+
+[templates.rofi]
+input_path = "/home/grey/.config/matugen/templates/rofi.rasi"
+output_path = "/home/grey/.config/rofi/colors.rasi"
+
+[templates.dunst]
+input_path = "/home/grey/.config/matugen/templates/dunst.conf"
+output_path = "/home/grey/.config/dunst/dunstrc"
+
+[templates.test]
+input_path = "/home/grey/.config/matugen/templates/test.txt"
+output_path = "/tmp/test.txt"
+
+[templates.swaync]
+input_path = "/home/grey/.config/matugen/templates/swaync.css"
+output_path = "/home/grey/.config/swaync/style.css"
+
+[templates.waybar_colors]
+input_path = "/home/grey/.config/matugen/templates/waybar-colors.css"
+output_path = "/home/grey/.config/waybar/colors.css"
+
+[templates.kvantum]
+input_path = "/home/grey/.config/matugen/templates/kvantum.kvconfig"
+output_path = "/home/grey/.config/Kvantum/Matugen/Matugen.kvconfig"
+
+
+[templates.qt6ct]
+input_path = "/home/grey/.config/matugen/templates/qt6ct.conf"
+output_path = "/home/grey/.config/qt6ct/colors/matugen.conf"
+
+
+[templates.kdeglobals]
+input_path = "/home/grey/.config/matugen/templates/kdeglobals"
+output_path = "/home/grey/.config/kdeglobals"

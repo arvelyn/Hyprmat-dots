@@ -1,0 +1,60 @@
+/* =========================
+   Matugen → GTK Theme Core
+   ========================= */
+
+/* Core colors */
+@define-color bg_color {{ colors.background.default.hex }};
+@define-color fg_color {{ colors.on_background.default.hex }};
+@define-color accent_color {{ colors.primary.default.hex }};
+@define-color border_color {{ colors.outline.default.hex }};
+@define-color muted_color {{ colors.surface.default.hex }};
+@define-color error_color {{ colors.error.default.hex }};
+
+/* Base widgets */
+* {
+  background-color: @bg_color;
+  color: @fg_color;
+}
+
+/* Headerbars (titlebars) */
+headerbar {
+  background-color: @bg_color;
+  color: @fg_color;
+  border-bottom: 1px solid @border_color;
+}
+
+/* Buttons */
+button {
+  background-color: @muted_color;
+  color: @fg_color;
+  border-radius: 8px;
+  border: 1px solid @border_color;
+  padding: 6px 10px;
+}
+
+button:hover {
+  background-color: @accent_color;
+  color: @bg_color;
+}
+
+/* Entries (input fields) */
+entry {
+  background-color: @bg_color;
+  color: @fg_color;
+  border: 1px solid @border_color;
+  border-radius: 6px;
+  padding: 6px;
+}
+
+/* Selected text / highlight */
+selection,
+*:selected {
+  background-color: @accent_color;
+  color: @bg_color;
+}
+
+/* Error / destructive actions */
+.destructive-action {
+  background-color: @error_color;
+  color: @bg_color;
+}
