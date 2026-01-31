@@ -7,13 +7,9 @@ reload_apps = false
 input_path = "/home/grey/.config/matugen/templates/hyprland.conf"
 output_path = "/home/grey/.config/hypr/colors.conf"
 
-[templates.gtk3]
-input_path = "/home/grey/.config/matugen/templates/gtk.css"
-output_path = "/home/grey/.config/gtk-3.0/gtk.css"
-
-[templates.gtk4]
-input_path = "/home/grey/.config/matugen/templates/gtk.css"
-output_path = "/home/grey/.config/gtk-4.0/gtk.css"
+# [templates.hyprlock]
+# input_path = "/home/grey/.config/matugen/templates/hyprlock.conf"
+# output_path = "/home/grey/.config/hypr/hyprlock.conf"
 
 [templates.kitty]
 input_path = "/home/grey/.config/matugen/templates/kitty.conf"
@@ -23,14 +19,6 @@ output_path = "/home/grey/.config/kitty/colors.conf"
 input_path = "/home/grey/.config/matugen/templates/rofi.rasi"
 output_path = "/home/grey/.config/rofi/colors.rasi"
 
-[templates.dunst]
-input_path = "/home/grey/.config/matugen/templates/dunst.conf"
-output_path = "/home/grey/.config/dunst/dunstrc"
-
-[templates.test]
-input_path = "/home/grey/.config/matugen/templates/test.txt"
-output_path = "/tmp/test.txt"
-
 [templates.swaync]
 input_path = "/home/grey/.config/matugen/templates/swaync.css"
 output_path = "/home/grey/.config/swaync/style.css"
@@ -39,16 +27,23 @@ output_path = "/home/grey/.config/swaync/style.css"
 input_path = "/home/grey/.config/matugen/templates/waybar-colors.css"
 output_path = "/home/grey/.config/waybar/colors.css"
 
-[templates.kvantum]
-input_path = "/home/grey/.config/matugen/templates/kvantum.kvconfig"
-output_path = "/home/grey/.config/Kvantum/Matugen/Matugen.kvconfig"
+# Gtk3
+[templates.gtk3]
+input_path = '/home/grey/.config/matugen/templates/gtk-colors.css'
+output_path = '/home/grey/.config//gtk-3.0/gtk.css'
+
+# Gtk4
+[templates.gtk4]
+input_path = '/home/grey/.config/matugen/templates/gtk-colors.css'
+output_path = '/home/grey/.config/gtk-4.0/gtk.css'
 
 
-[templates.qt6ct]
-input_path = "/home/grey/.config/matugen/templates/qt6ct.conf"
-output_path = "/home/grey/.config/qt6ct/colors/matugen.conf"
+[templates.cava]
+input_path = '/home/grey/.config/matugen/templates/cava-colors.ini'
+output_path = '/home/grey/.config/cava/themes/matugen'
+post_hook = 'pkill -USR1 cava'
 
-
-[templates.kdeglobals]
-input_path = "/home/grey/.config/matugen/templates/kdeglobals"
-output_path = "/home/grey/.config/kdeglobals"
+[templates.btop]
+input_path = '/home/grey/.config/matugen/templates/btop.theme'
+output_path = '/home/grey/.config/btop/themes/matugen.theme'
+post_hook = 'pkill -USR2 btop || true'

@@ -8,10 +8,10 @@
 
 ### To-do
 - [x] Hyprland
-- [ ] Hyprlock
+- [x] Hyprlock
 - [x] Matugen
-- [x] gtk themeing
-- [ ] qt themeing (having crazy ass problems)
+- [ ] gtk themeing
+- [ ] qt themeing (skipped for now)
 - [x] swww setup(wallpaper)
 - [x] Waybar(need more work)
 - [ ] Waybar switcher(rofi)
