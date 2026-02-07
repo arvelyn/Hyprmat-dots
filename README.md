@@ -1,9 +1,8 @@
 ## 🌌 HyprMat
-![GitHub stars](https://img.shields.io/github/stars/Grey-007/Hyprmat-dots?style=flat-square&color=4CAF50&label=STARS)
-![GitHub issues](https://img.shields.io/github/issues/Grey-007/Hyprmat-dots?style=flat-square&color=4CAF50&label=ISSUES)
-![Repo size](https://img.shields.io/github/repo-size/Grey-007/Hyprmat-dots?style=flat-square&color=4CAF50&label=REPO%20SIZE)
-![Visitors](https://komarev.com/ghpvc/?username=Grey-007&repo=Hyprmat-dots&color=4CAF50&style=flat-square)
-
+![GitHub stars](https://img.shields.io/github/stars/Grey-007/Hyprmat-dots?style=for-the-badge&label=STARS&labelColor=81C784&color=424242)
+![GitHub issues](https://img.shields.io/github/issues/Grey-007/Hyprmat-dots?style=for-the-badge&label=ISSUES&labelColor=81C784&color=424242)
+![Repo size](https://img.shields.io/github/repo-size/Grey-007/Hyprmat-dots?style=for-the-badge&label=REPO%20SIZE&labelColor=81C784&color=424242)
+![Visitors](https://komarev.com/ghpvc/?username=Grey-007&repo=Hyprmat-dots&style=for-the-badge&label=VISITORS&labelColor=81C784&color=424242)
 
 ** A complete, wallpaper-driven Hyprland rice powered by Matugen**
 
