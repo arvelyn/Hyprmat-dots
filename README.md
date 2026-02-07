@@ -32,14 +32,11 @@ HyprMat focuses on:
 
 > ⚠️ Screenshots may not reflect your setup exactly due to different wallpapers and displays.
 
-| ------------------------------------- | ---------------------------------- | ------------------------------------ |
-| ![](./assets/screenshots/ss1.png)     | ![](./assets/screenshots/ss2.png)  | ![](./assets/screenshots/ss3.png)    |
-|                                       |                                    |                                      |
-| ------------------------------------- | ---------------------------------- | ------------------------------------ |
-| ![](./assets/screenshots/ss4.png)     | ![](./assets/screenshots/ss5.png)  | ![](./assets/screenshots/ss6.png)    |
-|                                       |                                    |                                      |
-| ------------------------------------- | ---------------------------------- | ------------------------------------ |
-| ![](./assets/screenshots/ss7.png)     | ![](./assets/screenshots/ss8.png)  | ![](./assets/screenshots/ss9.png)    |
+| | | |
+|---|---|---|
+| ![](./assets/screenshots/ss1.png) | ![](./assets/screenshots/ss2.png) | ![](./assets/screenshots/ss3.png) |
+| ![](./assets/screenshots/ss4.png) | ![](./assets/screenshots/ss5.png) | ![](./assets/screenshots/ss6.png) |
+| ![](./assets/screenshots/ss7.png) | ![](./assets/screenshots/ss8.png) | ![](./assets/screenshots/ss9.png) |
 
 
 ---
