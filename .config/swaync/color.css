@@ -1,0 +1,169 @@
+/* 
+ * SwayNC Color Variables - Matugen Template
+ */
+
+:root {
+  /* ============================================
+     BACKGROUND COLORS
+     ============================================ */
+  
+  /* Primary background (main notification bg, control center) */
+  --bg-primary: #17130b;
+  
+  /* Secondary background (widgets, alternate sections) */
+  --bg-secondary: #241f17;
+  
+  /* Tertiary background (deepest level) */
+  --bg-tertiary: #201b13;
+  
+  /* Notification card background */
+  --bg-notification: #17130b;
+  
+  /* Hover state background */
+  --bg-hover: #2e2921;
+  
+  /* Active/pressed state background */
+  --bg-active: #3a342b;
+  
+  
+  /* ============================================
+     TEXT COLORS
+     ============================================ */
+  
+  /* Primary text (headings, important text) */
+   --text-primary: #f3ede5;
+  
+  /* Secondary text (body text, descriptions) */
+  --text-secondary: #d1c5b4;
+  
+  /* Tertiary text (less important text) */
+  --text-tertiary: #9a8f80;
+  
+  /* Dimmed text (timestamps, subtle info) */
+  --text-dim: #4e4639;
+  
+  
+  /* ============================================
+     ACCENT COLORS
+     ============================================ */
+  
+  /* Primary accent (normal priority, toggles, links) */
+  --accent-primary: #ecc06c;
+  
+  /* Secondary accent (low priority, info) */
+  --accent-secondary: #b2cfa7;
+  
+  /* Success/positive actions */
+  --accent-success: #b2cfa7;
+  
+  /* Warning/caution */
+  --accent-warning: #d9c4a0;
+  
+  /* Error/critical/destructive actions */
+  --accent-error: #ffb4ab;
+  
+  
+  /* ============================================
+     BORDER COLORS
+     ============================================ */
+  
+  /* Primary border (main borders, separators) */
+  --border-primary: #4e4639;
+  
+  /* Secondary border (subtle borders) */
+  --border-secondary: #9a8f80;
+  
+  /* Subtle border (barely visible) */
+  --border-subtle: #3a342b;
+  
+  
+  /* ============================================
+     SHADOW COLORS
+     ============================================ */
+  
+  /* Standard shadow color */
+  --shadow-color: #000000;
+  
+  /* Stronger shadow for emphasis */
+  --shadow-color-strong: #000000;
+  
+  
+  /* ============================================
+     SURFACE/OVERLAY COLORS
+     ============================================ */
+  
+  /* Overlay surfaces (semi-transparent) */
+  --surface-overlay: #17130b;
+  
+  /* Tooltip backgrounds */
+  --surface-tooltip: #2e2921;
+  
+  
+  /* ============================================
+     BUTTON COLORS
+     ============================================ */
+  
+  /* Button background (default state) */
+  --button-bg: #2e2921;
+  
+  /* Button background (hover state) */
+  --button-bg-hover: #3a342b;
+  
+  /* Button text color */
+  --button-text: #ebe1d4;
+  
+  
+  /* ============================================
+     CLOSE BUTTON COLORS
+     ============================================ */
+  
+  /* Close button background (default) */
+  --close-button-bg: transparent;
+  
+  /* Close button background (hover) */
+  --close-button-hover: #ffb4ab;
+  
+  /* Close button text/icon color */
+  --close-button-text: #9a8f80;
+  
+  
+  /* ============================================
+     SPACING & SIZING
+     ============================================ */
+  
+  /* Border radius for main elements */
+  --border-radius: 8px;
+  
+  /* Border radius for small elements */
+  --border-radius-small: 6px;
+  
+  /* Small spacing */
+  --spacing-small: 8px;
+  
+  /* Medium spacing */
+  --spacing-medium: 12px;
+  
+  /* Large spacing */
+  --spacing-large: 16px;
+  
+  
+  /* ============================================
+     TRANSITIONS
+     ============================================ */
+  
+  /* Fast transitions (hover effects) */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  /* Normal transitions (most animations) */
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ============================================
+   SOURCE COLOR INFO (for reference)
+   ============================================
+   
+   Wallpaper: /home/grey/Wallpaper/Bg033.jpg
+   Source Color: #ecddc7
+   Mode: dark
+   
+   ============================================ */
