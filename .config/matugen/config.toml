@@ -72,9 +72,9 @@ input_path = '/home/grey/.config/matugen/templates/pywalfox-colors.json'
 output_path = '/home/grey/.cache/wal/colors.json'
 post_hook = 'pywalfox update'
 
-[templates.vscode]
-input_path = '/home/grey/.config/matugen/templates/vscode.json'
-output_path = '/home/grey/.config/Code/User/settings.json'
+# [templates.vscode]
+# input_path = '/home/grey/.config/matugen/templates/vscode.json'
+# output_path = '/home/grey/.config/Code/User/settings.json'
 
 [templates.spicetify]
 input_path = "/home/grey/.config/matugen/templates/spicetify.ini"
@@ -83,4 +83,8 @@ output_path = "~/.config/spicetify/Themes/Matugen/color.ini"
 [templates.spotify]
 input_path = "/home/grey/.config/matugen/templates/spotify-color.ini"
 output_path = "/home/grey/.config/spicetify/Themes/Onepunch/color.ini"
+
+[templates.VSCodium]
+input_path = "/home/grey/.config/matugen/templates/vscode.json"
+output_path = "/home/grey/.config/VSCodium/User/Theme/vscode-palette.json"
 
